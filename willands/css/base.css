@@ -1,0 +1,188 @@
+﻿@charset "utf-8";
+
+/* ========================
+   // index_base CSS //
+======================== */
+
+
+#center_contents{
+	width:1000px;
+	height:300px;
+	margin:0 auto;
+
+}
+
+
+/* ========================
+   // index_HEADER CSS //
+======================== */
+
+
+#header_contents{
+	width:1000px;
+	height:300px;
+	margin:0 auto;
+}
+
+
+/* ========================
+   // index_SIDE CSS //
+======================== */
+
+#side_contents{
+	width:220px;
+	float:left;
+}
+
+
+/* ========================
+   // index_MAIN CSS //
+======================== */
+
+#main_contents{
+	width:760px;
+	margin-left:20px;
+	float:right;
+}
+
+
+/* ========================
+   // index_FOOTER CSS //
+======================== */
+
+
+/* ========================
+   // smooth_scrol //
+======================== */
+
+#smooth{
+	clear:both;
+}
+
+
+/* ========================
+   // Slide_Banner //
+======================== */
+
+#frontVA {
+	background: #ebebeb;
+	width:100%;
+	height:429px;
+	border-bottom:1px solid #e3e2e2;
+	position:relative;
+	overflow:hidden;
+}
+#frontVA .inner {
+	position:absolute;
+	top:0;
+	left:50%;
+	height:422px;
+	width:3102px;
+	margin-left:-1551px;
+	overflow:hidden;
+	z-index:1;
+}
+#frontVA .btn {
+	width:34px;
+	height:59px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-28px;
+	z-index:333;
+}
+#frontVA .btn.BK {
+	margin-left:-526px;
+}
+#frontVA .btn.FWD {
+	margin-left:492px;
+}
+#frontVA .btn img {
+	position:absolute;
+	top:9px;
+	cursor:pointer;
+}
+#frontVA .btn.BK img {
+	right:0;
+}
+#frontVA .btn.FWD img {
+	left:0;
+}
+#frontVA .move {
+	height:422px;
+	position:absolute;
+	top:0;
+}
+#frontVA .move .li {
+	float:left;
+	padding:0 13px;
+	width:1008px; /*1034px*/
+	height:422px;
+	position:relative;
+}
+
+
+/* ========================
+   // Slide_pull_down //
+======================== */
+
+.menu{
+      font-family: Helvetica;
+		background-color: #EDEDED;
+		width:214px;
+		padding:3px;
+}
+.menu #menu_list{
+    list-style: none;
+    margin:0;
+    padding:0;
+    width:212px;
+    border:1px solid #ccc;
+}
+.menu ul li ul{
+    width:208px;
+}
+.menu #menu_list li{
+    margin:0;
+    padding:2px 2px 0;
+    background-color: #FFF;
+    border-bottom:1px dotted #ccc;
+}
+.menu #menu_list .menu_bg1{
+	background-color: #d4dcd6;
+}
+
+.menu ul li.bt_sp{
+    margin:0;
+    padding:2px;
+    background-color: #FFF;
+    border-bottom:1px dotted #ccc;
+}
+
+.menu #menu_list li a{
+    padding-top:2px;
+    padding-left: 10px;
+    display:block;
+    text-decoration: none;
+    color:#333;
+    font-size:13px;
+    height:20px;
+    line-height: 1.3em;
+}
+.menu ul li ul a{
+    padding-left: 10px;
+    display:block;
+    text-decoration: none;
+    color:#ccc;
+    font-size:12px;
+    height:20px;
+    font-weight: normal;
+}
+.menu #menu_list li a:hover{
+    background-color:#ebf6f7;
+}
+
+.menu ul li ul{
+    display:none;
+
+}

@@ -1,1 +1,205 @@
-﻿test
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- IE7と同様に動作させるメタ -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="Description" content="サイトの説明" />
+<meta name="Keywords" content="キーワード" />
+<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/base.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<script src="js/jquery.flatheights.js" type="text/javascript"></script>
+<script src="js/front.js" type="text/javascript"></script>
+<script src="js/ticker.js" type="text/javascript"></script>
+
+<title>タイトル</title>
+
+	<!-- ▼slider -->
+	<script type="text/javascript">
+	<!--
+		var gnvID= '0';
+		var lnvID= '';
+	//-->
+	</script>
+	
+	<!-- ▼pull_down MENU -->
+    <script type="text/javascript">
+	<!--
+		var j$ = jQuery;
+
+		j$(function(){
+		j$(".menu").each(function(){
+		j$("li > a", this).each(function(index){
+		var $this = j$(this);
+
+		if(index > 0) $this.next().hide('normal');
+
+		$this.mouseover(function(){
+		j$(this).next().show('normal').parent().siblings()
+		.children("ul:visible").hide('normal');
+		return false;
+		});
+		});
+		});
+		});
+	//-->
+    </script>
+
+	<!-- ▼smooth_scrol -->
+	<script type="text/javascript">
+	<!--
+		$(function(){
+   		$('a[href^=#]').click(function(){
+        var speed = 500;
+        var href= $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top;
+        $("html, body").animate({scrollTop:position}, speed, "swing");
+        return false;
+    	});
+		});
+	//-->
+	</script>
+
+</head>
+<body>
+<!-- //▼header_contents-->
+<div id="header_contents">
+aaaaaaa
+</div><!-- //header_contents_END -->
+
+<!-- ▼Slide_Banner -->
+<div id="frontVA">
+<div class="inner">
+<div class="move">
+<div class="ul">
+<div class="li" id="shoolLifeBanner">
+<a href="#"><img src="images/sample1.jpg" alt="" /></a>
+</div>
+<div class="li"><a href="#"><img src="images/sample2.jpg" alt="" /></a></div>
+<div class="li"><a href="#"><img src="images/sample3.jpg" alt=""  /></a></div>
+</div><!-- //ul_END-->
+</div><!-- //move_END-->
+</div><!-- //inner_END-->
+<ul>
+<li class="btn BK"><img src="http://www.matsusho-h.ed.jp/matrix/nimages/front/btnBK.jpg" alt=""  class="on" /></li>
+<li class="btn FWD"><img src="http://www.matsusho-h.ed.jp/matrix/nimages/front/btnFWD.jpg" alt=""  class=" on" /></li>
+</ul>
+</div><!-- //frontVA_END -->
+
+<div id="center_contents">
+
+<!-- //▼side_contents-->
+<div id="side_contents">
+
+<!-- //▼pull_down_contents-->
+<div class="menu">
+        <ul id="menu_list">
+            <li>
+                <a href="#">講座案内</a>
+			</li>
+            <li class="menu_bg1">
+                <a href="#">企業様向け講座</a>
+                <ul>
+                    <li><a href="#">OFFICE365</a></li>
+                    <li><a href="#">OFFICE2010</a></li>
+                    <li><a href="#">ご案内</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">資格別の講座一覧</a>
+                <ul>
+                    <li><a href="#">P検</a></li>
+                    <li><a href="#">MOS</a></li>
+                    <li><a href="#">MOT</a></li>
+                    <li><a href="#">イラストレーター</a></li>
+                    <li><a href="#">フォトショップ</a></li>
+                    <li><a href="#">WEBクリエーター</a></li>
+                </ul>
+            </li>
+            <li class="menu_bg1">
+                <a href="#">講座案内</a>
+			</li>
+            <li>
+                <a href="#">MS系</a>
+                <ul>
+                    <li><a href="#">MOS</a></li>
+                    <li><a href="#">P検</a></li>
+                    <li><a href="#">一般の方向けビジネス</a></li>
+                    <li><a href="#">個人レッスン</a></li>
+                </ul>
+            </li>
+            <li class="menu_bg1">
+                <a href="#">MS系講座</a>
+                <ul>
+                    <li><a href="#">MOS</a></li>
+                    <li><a href="#">P検</a></li>
+                    <li><a href="#">一般の方向けビジネス</a></li>
+                    <li><a href="#">個人レッスン</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">クリエイティブ系講座</a>
+                <ul>
+                    <li><a href="#">総合学習</a></li>
+                    <li><a href="#">イラストレーター</a></li>
+                    <li><a href="#">フォトショップ</a></li>
+                    <li><a href="#">ドリームウィーバー</a></li>
+                    <li><a href="#">ホームページビルダー</a></li>
+                    <li><a href="#">フラッシュ</a></li>
+                    <li><a href="#">ネットショップ</a></li>
+                </ul>
+            </li>
+            <li class="menu_bg1">
+                <a href="#">エンジニア系講座</a>
+                <ul>
+                    <li><a href="#">ネットワーク</a></li>
+                    <li><a href="#">サーバ構築</a></li>
+                    <li><a href="#">プログラミング</a></li>
+                    <li><a href="#">データベース</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">キャンペーン講座</a>
+            </li>
+            <li class="menu_bg1">
+                <a href="#">スクール案内</a>
+                <ul>
+                    <li><a href="#">スクール概要</a></li>
+                    <li><a href="#">求職者支援訓練</a></li>
+                    <li><a href="#">卒業生の作品</a></li>
+                </ul>
+            </li>
+            <li class="bt_sp">
+                <a href="#">会社概要</a>
+                <ul>
+                    <li><a href="#">会社概要</a></li>
+                    <li><a href="#">アクセス</a></li>
+                    <li><a href="#">プライバシーポリシー</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div><!-- //menu_END -->
+
+</div><!-- //side_area_END -->
+
+<!-- //▼main_contents-->
+<div id="main_contents">
+bbbbbbb
+</div><!-- //main_contents_END -->
+
+</div><!-- //center_contents_END -->
+
+<!-- ▼smooth_scrol -->
+<div id="smooth">
+<p><a href="#header_contents">上へスムース！</a></p>
+</div><!-- //smooth_END -->
+</body>
+</html>
