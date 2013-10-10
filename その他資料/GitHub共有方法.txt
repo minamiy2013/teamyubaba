@@ -1,0 +1,14 @@
+﻿使い方
+
+不要な操作もあるかもしれませんが以下の手順で共有できるはずです。
+
+1,GitHubを起動しログインしてください。
+2,念のためrefreshをクリック。
+3,minamiy2013/teamyubabaのリポジトリの右の矢印をクリック。
+4,この際cloneが表示されたらクリック。
+5,作成したファイルをマイドキュメント/GitHub/teamyubaba内の該当フォルダに保存。
+6,GitHubの画面に戻りTOPページでrefresh後minamiy2013/teamyubabaの右矢印クリック。
+7,右上に黄色い領域でuncommited changesと表示されるので
+  commit messageの欄に「日付、名前、あれば変更点」を記入しcommitボタンをクリック。
+8,画面上部syncをクリック。
+9,共有完了。
