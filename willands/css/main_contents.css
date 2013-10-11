@@ -1,0 +1,223 @@
+﻿@charset "utf-8";
+
+/****** 全体 *****/
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+}
+
+/****** パンくずリスト *****/
+body > div > p:first-child {
+	width: 740px;
+	margin: 10px auto;
+}
+
+/***** メイン *****/
+div#main_contents {
+	width: 760px;
+	margin: 0 auto;
+}
+
+div#main {
+	width: 760px;
+	margin: 0 auto;
+	background : url("./illustrator/course_bg.png") repeat-y;	
+}
+
+.sub_main {
+	width: 720px;	
+	margin: 0 auto;
+}
+
+h3 {
+	margin: 65px 0 30px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.bold {
+	font-weight: bold
+}
+
+.font_size19 {
+	font-size: 19px;
+}
+
+.font_size11 {
+	font-size: 11px;
+}
+
+.align_bottom {
+	text-align: bottom;
+}
+
+a {
+	text-decoration: none;
+}
+/***** 上部アンカー *****/
+h2 {
+	margin-bottom: 30px;
+}
+
+h2 + ul {
+	overflow:hidden;
+}
+
+h2 + ul > li {
+	float: left;
+}
+
+/***** コンテンツ1 *****/
+h3#contents1 {
+	margin-top: 30px;
+}
+
+h3#contents1 + div {
+	overflow: hidden;
+}
+
+h3#contents1 + div > ul:first-child {
+	float: left;
+	width: 465px;
+}
+
+h3#contents1 + div > ul:first-child + ul {
+	float: right;
+	width: 245px;
+}
+
+h3#contents1 + div > ul > li {
+	height: 150px;
+}
+
+h3#contents1 + div > ul > li:first-child {
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+
+h3#contents1 + div ul:first-child > li + li {
+	background : url("./illustrator/course_illustrator_img3.png") no-repeat;	
+}
+
+h3#contents1 + div ul:first-child > li + li > p:first-child {
+	padding: 50px 0 5px 10px;
+}
+
+h3#contents1 + div ul:first-child > li + li > p:first-child + p{
+	margin: 5px 10px 0 10px;
+	padding-top: 5px;
+	border-top: dotted 1px #000000;
+
+}
+
+/***** コンテンツ2 *****/
+h3#contents2 + div > p + ul {
+	overflow: hidden;
+}
+
+h3#contents2 + div > p + ul > li {
+	float:left;
+	width: 170px;
+	height: 222px;
+}
+
+h3#contents2 + div > p + ul > li > p {
+	padding: 60px 10px 0 10px;
+}
+
+h3#contents2 + div > p + ul > li:first-child {
+	background : url("./illustrator/course_illustrator_img5.png") no-repeat;
+	margin: 0 10px 0 6px;
+}
+
+h3#contents2 + div > p + ul > li:first-child + li {
+	background : url("./illustrator/course_illustrator_img6.png") no-repeat;
+	margin-right: 10px;
+}
+
+h3#contents2 + div > p + ul > li:first-child + li + li {
+	background : url("./illustrator/course_illustrator_img7.png") no-repeat;
+	margin-right: 10px;
+}
+
+h3#contents2 + div > p + ul > li:first-child + li + li + li {
+	background : url("./illustrator/course_illustrator_img8.png") no-repeat;
+}
+
+h3#contents2 + div > p + ul + p {
+	margin-top: 10px;
+	text-align: right;
+}
+
+/***** コンテンツ3 *****/
+h3#contents3 + div > h4 + table {
+	margin: 10px 0 30px;
+	border-collapse: collapse;
+}
+
+tr {
+	border-bottom: dotted 1px #3A4046;
+}
+
+th, td {
+	padding: 7px;
+	border-right: solid 1px #ABABAB;
+}
+
+th {
+	width: 120px;
+}
+
+td {
+	width: 200px;
+	vertical-align: top;
+}
+
+th + td + td + td, tbody > tr + tr + tr + tr + tr td {
+	border-right: none;
+}
+
+tr + tr + tr + tr + tr , table + h4 + table tr + tr + tr {
+	border-bottom: none;
+}
+
+tbody tr:first-child, tbody tr:first-child + tr + tr, tr + tr + tr + tr + tr {
+	background-color: #F7F7F7;
+}
+
+tbody tr:first-child + tr, tbody tr:first-child + tr + tr + tr {
+	background-color: #CFDEF3;
+}
+
+/***** コンテンツ4 *****/
+h3#contents4 + div > p + p {
+	height: 90px;
+	margin-top: 50px;
+	padding: 50px 0 0 20px;
+	background : url("./illustrator/course_illustrator_img10.png") no-repeat;
+}
+
+h3#contents4 + div + div {
+	width: 740px;
+	height: 2px;
+	margin: 0 auto;
+	background : url("./illustrator/course_end.png") no-repeat;
+}
+
+/***** jQuery（ページトップへ） *****/
+#pageTop{
+	background: #DDD;
+	border-radius: 5px;
+	color: #FFF;
+	padding: 20px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+#pageTop:hover{
+	background: #EEE;
+}
