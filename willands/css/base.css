@@ -62,7 +62,7 @@ div#global_navigation {
 	height:84px;
 	width: 100%;
 	margin-top: 8px;
-	background-image: url("../images/gn.png");
+	background-image: url("../images/global_navi.png");
 	background-repeat: repeat-x;
 	
 }
@@ -76,7 +76,7 @@ div#global_navigation {
 
 #global_navigation ul li {
 	float:left;
-	background-image: url("../images/gn.png") repeat-x;
+	background-image: url("../images/global_navi.png") repeat-x;
 }
 
 
@@ -209,6 +209,10 @@ div#global_navigation {
 	background-repeat: no-repeat;
 }
 
+#footer1 div p {
+	margin-left:30px;
+}
+
 #footer2{
 	height: 135px;
 	background-image: url("../images/footer2.png");
@@ -225,6 +229,11 @@ div#global_navigation {
 
 #smooth{
 	clear:both;
+}
+
+#smooth p{
+	margin-right: 50px;
+	text-align:right;
 }
 
 
