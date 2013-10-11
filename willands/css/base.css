@@ -26,59 +26,27 @@
 
 h1 {
 	float: left;
-	overflow:hidden;
-}
-
-#header_menu ul{
-	float:right;
 }
 
 #header_menu ul li {
 	float: left;
-	padding: 10px;
 	color: #2D60AB;
-}
-
-#contact{
-	clear:right;
-	float: right;
 }
 
 #contact p {
  color: #404040;
-	//font-size: small;
+	font-size: small;
 }
 
-#contact p+p {
+#contac p+p {
  color: #404040;
 	font-size: x-large;
-	overflow: hidden;
-}
-
-/*=========================
-グローバルナビ
-=========================*/
-div#global_navigation {
-	height:84px;
-	width: 100%;
-	margin-top: 8px;
-	background-image: url("../images/gn_background.png");
-	background-repeat: repeat-x;
-	
-}
-
-
-#global_navigation ul {
-	width:1001px;
-	height: 84px;
-	margin: 0 auto;
 }
 
 #global_navigation ul li {
 	float:left;
-	background-image: url("../images/gn_background.png") repeat-x;
+	background-image: url("./images/bn_background.png") repeat-x;
 }
-
 
 /* ========================
    // index_SIDE CSS //
@@ -89,20 +57,10 @@ div#global_navigation {
 	float:left;
 }
 
-/*=========================
-   // パンくずリスト用の領域
-==========================*/
-
-#bread{
-	width: 1000px;
-	height:30px;
-	margin:0 auto;
-}
 
 /* ========================
    // index_MAIN CSS //
 ======================== */
-
 
 #main_contents{
 	width:760px;
@@ -110,78 +68,6 @@ div#global_navigation {
 	float:right;
 }
 
-/*==========================
-講座を探す
-============================*/
-#kouza div{
-	width:740px;
-	margin: 0 auto;
-}
-
-#shikaku{
-	margin: 30px 30px 65px 34px;
-	float:left;
-}
-
-#course{
-	margin:30px 34px 65px 30px;
-	float:right;
-}
-
-/*=========================
-おすすめ講座ランキング
-===========================*/
-#ranking > div{
-	width: 740px;
-	margin:0 auto;
-}
-
-#ranking > div >div{
-	float: left;
-}
-
-
-#rank1{
-	height:300px;
-	width:202px;
-	background-image:;
-	margin:30px 0 20px 34px;
-}
-
-#rank2{
-	height:300px;
-	width:201px;
-	background-image:;
-	margin:30px 0px 20px 34px;
-}
-#rank3{
-	height:300px;
-	width:202px;
-	background-image:;
-	margin:30px 34px 20px 33px;
-}
-#rank4{
-	height:300px;
-	width:201px;
-	background-image:;
-	margin:0 0px 65px 34px;;
-}
-#rank5{
-	height:300px;
-	width:201px;
-	background-image:;
-	margin:0 0px 65px 34px;;
-}
-#rank6{
-	height:300px;
-	width:202px;
-	background-image:;
-	margin:0 34px 65px 33px;;
-}
-
-
-/*
-*/
 
 /* ========================
    // index_FOOTER CSS //
