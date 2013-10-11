@@ -1,0 +1,101 @@
+﻿@charset "utf-8";
+
+/*==========================
+新着
+============================*/
+#news > div{
+	width:740px;
+	margin :0 auto;
+	margin-top:30px;
+}
+
+#news1{
+	width:246px;
+	float:left;
+}
+#news2{
+	width:247px;
+	float:left;
+}
+#news3{
+	width:247px;
+	float:left;
+}
+
+#news_more {
+	height:65px;
+}
+
+/*==========================
+講座を探す
+============================*/
+#kouza div{
+	width:740px;
+	margin: 0 auto;
+}
+
+#shikaku{
+	margin: 30px 30px 65px 34px;
+	float:left;
+}
+
+#course{
+	margin:30px 34px 65px 30px;
+	float:right;
+}
+
+/*=========================
+おすすめ講座ランキング
+===========================*/
+#ranking > div{
+	width: 740px;
+	margin:0 auto;
+}
+
+#ranking > div >div{
+	float: left;
+}
+
+
+#rank1{
+	height:300px;
+	width:202px;
+	background-image:;
+	margin:30px 0 20px 34px;
+}
+
+#rank2{
+	height:300px;
+	width:201px;
+	background-image:;
+	margin:30px 0px 20px 34px;
+}
+#rank3{
+	height:300px;
+	width:202px;
+	background-image:;
+	margin:30px 34px 20px 33px;
+}
+#rank4{
+	height:300px;
+	width:201px;
+	background-image:;
+	margin:0 0px 65px 34px;;
+}
+#rank5{
+	height:300px;
+	width:201px;
+	background-image:;
+	margin:0 0px 65px 34px;;
+}
+#rank6{
+	height:300px;
+	width:202px;
+	background-image:;
+	margin:0 34px 65px 33px;;
+}
+
+
+/*
+*/
+
