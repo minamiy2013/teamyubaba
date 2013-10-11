@@ -62,7 +62,7 @@ div#global_navigation {
 	height:84px;
 	width: 100%;
 	margin-top: 8px;
-	background-image: url("../images/gn_background.png");
+	background-image: url("../images/global_navi.png");
 	background-repeat: repeat-x;
 	
 }
@@ -76,7 +76,7 @@ div#global_navigation {
 
 #global_navigation ul li {
 	float:left;
-	background-image: url("../images/gn_background.png") repeat-x;
+	background-image: url("../images/global_navi.png") repeat-x;
 }
 
 
@@ -89,6 +89,9 @@ div#global_navigation {
 	float:left;
 }
 
+.side_banner{
+	margin-top:10px;
+}
 /*=========================
    // パンくずリスト用の領域
 ==========================*/
@@ -187,13 +190,50 @@ div#global_navigation {
    // index_FOOTER CSS //
 ======================== */
 
+#footer1{
+	height: 125px;
+	background-image: url("../images/footer1.png");
+	background-repeat: repeat-x;
+}
 
+#footer1 > p{
+	height:30px;
+}
+
+#footer1 div {
+	height:67px;
+	width:610px;
+	margin: auto;
+	padding-top:30px;
+	background-image: url("../images/footer_menu.png");
+	background-repeat: no-repeat;
+}
+
+#footer1 div p {
+	margin-left:30px;
+}
+
+#footer2{
+	height: 135px;
+	background-image: url("../images/footer2.png");
+	background-repeat: repeat-x;
+}
+
+#footer2 div{
+	width: 800px;
+	margin: 0 auto;
+}
 /* ========================
    // smooth_scrol //
 ======================== */
 
 #smooth{
 	clear:both;
+}
+
+#smooth p{
+	margin-right: 50px;
+	text-align:right;
 }
 
 
