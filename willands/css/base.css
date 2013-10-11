@@ -143,6 +143,7 @@ div#global_navigation {
 	height: 135px;
 	background-image: url("../images/footer2.png");
 	background-repeat: repeat-x;
+	padding: 30px;
 }
 
 #footer2 div{
